@@ -4,10 +4,7 @@ The **s20-project-crimson-soldiers** is a ... (project description here)
 ## Prerequisites
 
 * Visual Studio 2019 or 2017
-* .NET Core 2.1 SDK or newer
-* Latest LTS version of Node
-* Latest version of Webpack 2.x
-* Latest version of Yarn
+* .NET Core 3.1 SDK or newer
 
 ## Getting Started
 
