@@ -5,10 +5,19 @@ The **s20-project-crimson-soldiers** is a ... (project description here)
 
 * Visual Studio 2019 or 2017
 * .NET Core 3.1 SDK or newer
+* Node `v12.15.0`
+* Angular CLI `9.0.1`
+* EntityFrameworkCore `3.1.1`
+* Swagger `5.0.0`
 
 ## Getting Started
 
-To run this application ... 
+To run this application this application locally:
+- Clone the repository.
+- Install node v12.15.0 LTS ( https://nodejs.org/en/ )
+- Ensure you have the correct .NET CORE SDK version (in the command line run `dotnet --version`)
+- Install @angular/cli@9.0.1 (https://cli.angular.io/ )
+- Ensure your project Builds.
 
 ## Merge Requests & Builds
 
@@ -19,8 +28,11 @@ Merge requests should be open against the `master` branch with a proper descript
 (Include descriptive info of our project structure, the goal is that if someone not familiar with our project reads this, it will be easy to undersantd and work with)
 
 ## Built With
-- X : Back-End Framework
-- X : Front-End Framework
-- X : Package bundler
-- X : SPA Page routing library for Angular
+- ASP.NET Web API : Back-End Framework.
+- Angular : Front-End Framework.
+- Angular CLI (Webpack) : Package bundler.
+- TypeScript : A superset of JavaScript that compiles to plain JavaScript ( http://www.typescriptlang.org/ ).
+- Microsoft.EntityFrameworkCore.SqlServer : Object-relational mapping framework.
+- Swagger : Web API testing tool.
+
 (add frameworks used here with links that proof reliability)
