@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29613.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CrimsonSoldiersWebApp", "CrimsonSoldiersWebApp\CrimsonSoldiersWebApp.csproj", "{8254A3F2-912B-47C9-A83E-34B1546AD0CA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTests", "UnitTests\UnitTests.csproj", "{300C9D1D-1901-4BAE-A52D-4A577BCE2EFB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8254A3F2-912B-47C9-A83E-34B1546AD0CA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8254A3F2-912B-47C9-A83E-34B1546AD0CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8254A3F2-912B-47C9-A83E-34B1546AD0CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8254A3F2-912B-47C9-A83E-34B1546AD0CA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{300C9D1D-1901-4BAE-A52D-4A577BCE2EFB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{300C9D1D-1901-4BAE-A52D-4A577BCE2EFB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{300C9D1D-1901-4BAE-A52D-4A577BCE2EFB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{300C9D1D-1901-4BAE-A52D-4A577BCE2EFB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {89ABF8F9-5E30-485B-A1E7-2A95EDEABC65}
+	EndGlobalSection
+EndGlobal
