@@ -1,6 +1,8 @@
+using CrimsonSoldiersWebApp.Infrastructure.Data;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.SpaServices.AngularCli;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
@@ -32,6 +34,10 @@ namespace CrimsonSoldiersWebApp
                {
                     c.SwaggerDoc("v1", new OpenApiInfo { Title = "CrimsonSoldiersWebApp", Version = "v1" });
                });
+
+               // Adding EntityFramework
+               services.AddDbContext<CrimsonContext>(options =>
+               options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
           }
 
           // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
