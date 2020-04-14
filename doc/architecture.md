@@ -7,7 +7,8 @@
 This document provides a high-level overview of the application's architecture, the use cases supported and components that have been selected to best achieve them. 
 
 ## Architecture Overview 
-(add system diagram flow and description)
+add system diagram flow and description  
+![test](https://github.com/IUS-CS/s20-project-crimson-soldiers/blob/master/doc/System%20flow%20diagram.JPG"Title")
 
 ## Use-Case View
 1. Actors <br />
