@@ -1,6 +1,11 @@
 export interface ServiceModel {
   id: number;
-  imageUrl: string;
   name: string;
+  location: string;
+  hours: string;
+  phoneNumber: string;
+  email: string;
+  imageUrl: string;
   shortDescription: string;
+  longDescription: string;
 }

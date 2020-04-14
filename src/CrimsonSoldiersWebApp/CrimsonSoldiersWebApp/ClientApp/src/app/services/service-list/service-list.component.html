@@ -33,6 +33,17 @@
   </ng-template>
 </p-table>
 
-<!--<p-dialog header="Title" [(visible)]="display">
-  
-</p-dialog>-->
+<p-dialog header="{{service.name}} Details" [(visible)]="display" [style]="{width: '35vw'}">
+  <ul class="list-group list-group-flush">
+    <li class="list-group-item" *ngIf="service.longDescription">
+      <div class="text-center">
+        <img [src]="service.imageUrl" class="img-thumbnail" style="width: 800px; height: 300px" />
+      </div>
+    </li>
+    <li class="list-group-item" *ngIf="service.location"><strong>Location:</strong> {{service.location}}</li>
+    <li class="list-group-item" *ngIf="service.hours"><strong>Hours:</strong> {{service.hours}}</li>
+    <li class="list-group-item" *ngIf="service.phoneNumber"><strong>Phone Number:</strong> <a href="tel:service.phoneNumber"> {{service.phoneNumber}}</a></li>
+    <li class="list-group-item" *ngIf="service.email"><strong>Email:</strong> <a href="mailto:service.email"> {{service.email}}</a></li>
+    <li class="list-group-item" *ngIf="service.longDescription"><strong>Service Description:</strong> {{service.longDescription}}</li>
+  </ul>
+</p-dialog>
