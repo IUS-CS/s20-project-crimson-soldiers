@@ -1,9 +1,9 @@
 <header>
   <nav
-    class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3"
+    class="navbar navbar-expand-sm navbar-toggleable-sm navbar-dark border-bottom box-shadow mb-3 branding-nav"
   >
-    <div class="container">
-      <a class="navbar-brand" [routerLink]="['/']">CrimsonSoldiersWebApp</a>
+    <div class="container" >
+      <a class="navbar-brand" [routerLink]="['/']"><img src="https://crimsonstorage.blob.core.windows.net/images/iulogo.jpg" class="img-thumbnail" style="width: 50px; height: 50px" />  Crimson Soldiers</a>
       <button
         class="navbar-toggler"
         type="button"
@@ -25,7 +25,7 @@
             [routerLinkActive]="['link-active']"
             [routerLinkActiveOptions]="{ exact: true }"
           >
-            <a class="nav-link text-dark" [routerLink]="['/']">Home</a>
+            <a class="nav-link text-light" [routerLink]="['/']">Home</a>
         </ul>
       </div>
     </div>

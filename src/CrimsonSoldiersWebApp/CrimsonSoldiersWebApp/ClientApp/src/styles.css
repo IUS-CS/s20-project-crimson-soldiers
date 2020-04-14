@@ -1,6 +1,6 @@
 /* You can add global styles to this file, and also import other style files */
-
 /* Provide sufficient contrast against white background */
+
 a {
   color: #0366d6;
 }
@@ -13,4 +13,55 @@ code {
   color: #fff;
   background-color: #1b6ec2;
   border-color: #1861ac;
+}
+
+/*Custom*/
+
+.ui-table-caption {
+  border: 0 none;
+  padding: 12px;
+  text-align: left !important;
+  font-size: 20px;
+}
+
+.ui-table-globalfilter-container {
+  float: right;
+}
+
+.ui-table-globalfilter-container input {
+  width: 200px;
+}
+
+.ui-table-tbody > tr > td .ui-column-title {
+  display: none;
+}
+
+/* Responsive */
+@media screen and (max-width: 64em) {
+.ui-table-thead > tr > th, :host ::ng-deep .ui-table.ui-table-services .ui-table-tfoot > tr > td {
+    display: none !important;
+ }
+
+  :host ::ng-deep .ui-table.ui-table-services .ui-table-tbody > tr > td {
+    text-align: left;
+    display: block;
+    border: 0 none !important;
+    width: 100% !important;
+    float: left;
+    clear: left;
+    border: 0 none;
+  }
+
+    :host ::ng-deep .ui-table.ui-table-services .ui-table-tbody > tr > td .ui-column-title {
+      padding: 0.4em;
+      min-width: 30%;
+      display: inline-block;
+      margin: -0.4em 1em -0.4em -0.4em;
+      font-weight: bold;
+    }
+}
+
+.search-icon {
+  background-color: #7A1705 !important;
+  border: 1px solid #7A1705 !important;
 }
