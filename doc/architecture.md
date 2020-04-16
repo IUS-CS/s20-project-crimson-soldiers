@@ -8,7 +8,7 @@ This document provides a high-level overview of the application's architecture, 
 
 ## Architecture Overview 
 add system diagram flow and description  
-![test](https://github.com/IUS-CS/s20-project-crimson-soldiers/blob/master/doc/System%20flow%20diagram.JPG"Title")
+![System Flow Diagram](https://github.com/IUS-CS/s20-project-crimson-soldiers/blob/byoungWork/doc/System%20flow%20diagram.JPG)
 
 ## Use-Case View
 1. Actors <br />
