@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Crimson Soldiers">
+
+	<parameter name="browser" value="chrome" />
+	<parameter name="testName" value="Crimson Soldiers Automated Test" />
+
+	<!-- Code to use the listener class -->
+	<listeners>
+		<listener class-name="setup.AnnotationsListeners" />
+	</listeners>
+
+	<test name="Crimson Soldiers Automated Test">
+		<parameter name="testName" value="01" />
+		<classes>
+			<class name="tests.MainTest" />
+		</classes>
+	</test>
+
+</suite> <!-- Suite -->
