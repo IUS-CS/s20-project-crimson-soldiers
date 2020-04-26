@@ -14,10 +14,12 @@ In our system, the user sends requests over HTTPS to an Angular front-end framew
 
 ## Use-Case View
 1. Actors  
-**(description and diagram to be added)**
+Our webapp contains 2 major use cases:
+    - Seeing all on-campus services
+    - Finding contact information for a specific service
 
 2. Use Cases  
-(list of use cases with description to be added)
+
 
 ## Service View 
 1. Repository
