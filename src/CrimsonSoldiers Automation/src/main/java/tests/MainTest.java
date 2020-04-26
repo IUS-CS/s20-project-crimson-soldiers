@@ -23,7 +23,7 @@ public class MainTest {
 		if(!Common.getPageBodySource().contains("Library where students can study and rent books"))
 			Common.logTestFail("Search issue");
 		else
-			Common.logTestPass("If no errors, no issues");
+			Common.logTestPass("No Navigation Issues");
 	}
 
 	//Page 1
@@ -42,6 +42,7 @@ public class MainTest {
 			Common.logTestFail("Email Missing");
 		if(!Common.getPageBodySource().contains(ServiceSpecific.IUSPolice.desc))
 			Common.logTestFail("Service Description Missing");
+		System.out.println("IUS Police Test Success");
 	}
 
 	@Test(priority=2)
@@ -59,6 +60,7 @@ public class MainTest {
 			Common.logTestFail("Email Missing");
 		if(!Common.getPageBodySource().contains(ServiceSpecific.Athletics.desc))
 			Common.logTestFail("Service Description Missing");
+		System.out.println("Athletics Test Success");
 	}
 
 	@Test(priority=2)
@@ -76,6 +78,7 @@ public class MainTest {
 			Common.logTestFail("Email Missing");
 		if(!Common.getPageBodySource().contains(ServiceSpecific.LangLab.desc))
 			Common.logTestFail("Service Description Missing");
+		System.out.println("Language Lab Test Success");
 	}
 
 	@Test(priority=4)
@@ -93,6 +96,7 @@ public class MainTest {
 			Common.logTestFail("Email Missing");
 		if(!Common.getPageBodySource().contains(ServiceSpecific.Registrar.desc))
 			Common.logTestFail("Service Description Missing");
+		System.out.println("Registrar Test Success");
 	}
 
 	@Test(priority=5)
@@ -110,6 +114,7 @@ public class MainTest {
 			Common.logTestFail("Email Missing");
 		if(!Common.getPageBodySource().contains(ServiceSpecific.Admissions.desc))
 			Common.logTestFail("Service Description Missing");
+		System.out.println("Admissions Test Success");
 	}
 
 	@Test(priority=6)
@@ -127,6 +132,7 @@ public class MainTest {
 			Common.logTestFail("Email Missing");
 		if(!Common.getPageBodySource().contains(ServiceSpecific.AccountingServices.desc))
 			Common.logTestFail("Service Description Missing");
+		System.out.println("Accounting Services Test Success");
 	}
 
 	@Test(priority=7)
@@ -144,6 +150,7 @@ public class MainTest {
 			Common.logTestFail("Email Missing");
 		if(!Common.getPageBodySource().contains(ServiceSpecific.TestingAndDisability.desc))
 			Common.logTestFail("Service Description Missing");
+		System.out.println("Testing and Disability Test Success");
 	}
 
 	@Test(priority=8)
@@ -161,6 +168,7 @@ public class MainTest {
 			Common.logTestFail("Email Missing");
 		if(!Common.getPageBodySource().contains(ServiceSpecific.VetServices.desc))
 			Common.logTestFail("Service Description Missing");
+		System.out.println("Vet Services Test Success");
 	}
 
 	@Test(priority=9)
@@ -178,6 +186,7 @@ public class MainTest {
 			Common.logTestFail("Email Missing");
 		if(!Common.getPageBodySource().contains(ServiceSpecific.TechServices.desc))
 			Common.logTestFail("Service Description Missing");
+		System.out.println("Tech Services Test Success");
 	}
 
 	//Page 2
@@ -197,6 +206,7 @@ public class MainTest {
 			Common.logTestFail("Email Missing");
 		if(!Common.getPageBodySource().contains(ServiceSpecific.SocSciences.desc))
 			Common.logTestFail("Service Description Missing");
+		System.out.println("Social Sciences Test Success");
 	}
 
 	@Test(priority=11)
@@ -215,6 +225,7 @@ public class MainTest {
 			Common.logTestFail("Email Missing");
 		if(!Common.getPageBodySource().contains(ServiceSpecific.Aces.desc))
 			Common.logTestFail("Service Description Missing");
+		System.out.println("Aces Test Success");
 	}
 
 	@Test(priority=12)
@@ -233,6 +244,7 @@ public class MainTest {
 			Common.logTestFail("Email Missing");
 		if(!Common.getPageBodySource().contains(ServiceSpecific.Nursing.desc))
 			Common.logTestFail("Service Description Missing");
+		System.out.println("Nursing Test Success");
 	}
 
 	@Test(priority=12)
@@ -251,6 +263,7 @@ public class MainTest {
 			Common.logTestFail("Email Missing");
 		if(!Common.getPageBodySource().contains(ServiceSpecific.ArtsAndLetters.desc))
 			Common.logTestFail("Service Description Missing");
+		System.out.println("Arts and Letters Test Success");
 	}
 
 	@Test(priority=14)
@@ -269,6 +282,7 @@ public class MainTest {
 			Common.logTestFail("Email Missing");
 		if(!Common.getPageBodySource().contains(ServiceSpecific.NatScience.desc))
 			Common.logTestFail("Service Description Missing");
+		System.out.println("Natural Sciencee Test Success");
 	}
 
 	@Test(priority=15)
@@ -287,6 +301,7 @@ public class MainTest {
 			Common.logTestFail("Email Missing");
 		if(!Common.getPageBodySource().contains(ServiceSpecific.Education.desc))
 			Common.logTestFail("Service Description Missing");
+		System.out.println("Education Test Success");
 	}
 
 	@Test(priority=16)
@@ -305,6 +320,7 @@ public class MainTest {
 			Common.logTestFail("Email Missing");
 		if(!Common.getPageBodySource().contains(ServiceSpecific.Business.desc))
 			Common.logTestFail("Service Description Missing");
+		System.out.println("Business Test Success");
 	}
 
 	@Test(priority=17)
@@ -323,6 +339,7 @@ public class MainTest {
 			Common.logTestFail("Email Missing");
 		if(!Common.getPageBodySource().contains(ServiceSpecific.CareerDevCenter.desc))
 			Common.logTestFail("Service Description Missing");
+		System.out.println("Career Dev Center Test Success");
 	}
 
 	@Test(priority=18)
@@ -341,6 +358,7 @@ public class MainTest {
 			Common.logTestFail("Email Missing");
 		if(!Common.getPageBodySource().contains(ServiceSpecific.Housing.desc))
 			Common.logTestFail("Service Description Missing");
+		System.out.println("Housing Test Success");
 	}
 
 	//Page 3
@@ -360,6 +378,7 @@ public class MainTest {
 			Common.logTestFail("Email Missing");
 		if(!Common.getPageBodySource().contains(ServiceSpecific.Library.desc))
 			Common.logTestFail("Service Description Missing");
+		System.out.println("Library Test Success");
 	}
 
 	@Test(priority=20)
@@ -378,6 +397,7 @@ public class MainTest {
 			Common.logTestFail("Email Missing");
 		if(!Common.getPageBodySource().contains(ServiceSpecific.ConfAndCater.desc))
 			Common.logTestFail("Service Description Missing");
+		System.out.println("Conf and Cater Test Success");
 	}
 
 	@Test(priority=21)
@@ -396,6 +416,7 @@ public class MainTest {
 			Common.logTestFail("Email Missing");
 		if(!Common.getPageBodySource().contains(ServiceSpecific.CampusLife.desc))
 			Common.logTestFail("Service Description Missing");
+		System.out.println("Campus Life Test Success");
 	}
 
 	@Test(priority=22)
@@ -414,6 +435,7 @@ public class MainTest {
 			Common.logTestFail("Email Missing");
 		if(!Common.getPageBodySource().contains(ServiceSpecific.FinAid.desc))
 			Common.logTestFail("Service Description Missing");
+		System.out.println("Financial Aid Test Success");
 	}
 
 	@Test(priority=22)
@@ -432,6 +454,7 @@ public class MainTest {
 			Common.logTestFail("Email Missing");
 		if(!Common.getPageBodySource().contains(ServiceSpecific.Bursar.desc))
 			Common.logTestFail("Service Description Missing");
+		System.out.println("Bursar Test Success");
 	}
 
 	@Test(priority=24)
@@ -448,6 +471,7 @@ public class MainTest {
 			Common.logTestFail("Email Missing");
 		if(!Common.getPageBodySource().contains(ServiceSpecific.OgleCenter.desc))
 			Common.logTestFail("Service Description Missing");
+		System.out.println("Ogle Center Test Success");
 	}
 
 	@Test(priority=25)
@@ -466,6 +490,7 @@ public class MainTest {
 			Common.logTestFail("Email Missing");
 		if(!Common.getPageBodySource().contains(ServiceSpecific.CompScienceTutors.desc))
 			Common.logTestFail("Service Description Missing");
+		System.out.println("Computer Science Tutors Test Success");
 	}
 
 	@Test(priority=26)
@@ -484,6 +509,7 @@ public class MainTest {
 			Common.logTestFail("Email Missing");
 		if(!Common.getPageBodySource().contains(ServiceSpecific.SSC.desc))
 			Common.logTestFail("Service Description Missing");
+		System.out.println("SSC Test Success");
 	}
 
 	@Test(priority=27)
@@ -502,6 +528,7 @@ public class MainTest {
 			Common.logTestFail("Email Missing");
 		if(!Common.getPageBodySource().contains(ServiceSpecific.MathLab.desc))
 			Common.logTestFail("Service Description Missing");
+		System.out.println("Math Lab Test Success");
 	}
 
 	//Page 4
@@ -521,6 +548,7 @@ public class MainTest {
 			Common.logTestFail("Email Missing");
 		if(!Common.getPageBodySource().contains(ServiceSpecific.WritingCenter.desc))
 			Common.logTestFail("Service Description Missing");
+		System.out.println("Writing Center Test Success");
 	}
 
 	@Test(priority=29)
@@ -539,6 +567,7 @@ public class MainTest {
 			Common.logTestFail("Email Missing");
 		if(!Common.getPageBodySource().contains(ServiceSpecific.Bookstore.desc))
 			Common.logTestFail("Service Description Missing");
+		System.out.println("Bookstore Test Success");
 	}
 
 	//@Test(priority=20)
@@ -557,5 +586,6 @@ public class MainTest {
 			Common.logTestFail("Email Missing");
 		if(!Common.getPageBodySource().contains(ServiceSpecific.ASC.desc))
 			Common.logTestFail("Service Description Missing");
+		System.out.println("ASC Test Success");
 	}
 }
