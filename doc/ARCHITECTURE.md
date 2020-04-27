@@ -12,15 +12,20 @@ In our system, the user sends requests over HTTPS to an Angular front-end framew
 
 ![System Flow Diagram](https://github.com/IUS-CS/s20-project-crimson-soldiers/blob/byoungWork/doc/System%20flow%20diagram.JPG)
 
-## Use-Case View  
-![Use-Case Diagram](https://github.com/IUS-CS/s20-project-crimson-soldiers/blob/byoungWork/doc/use-case.png)  
+## Use-Case View
 1. Actors  
 Our webapp contains 2 major use cases:
-    - Listing all on-campus services
-    - Finding additional information for a specific service
-    - Searching
+    - Seeing all on-campus services
+    - Finding contact information for a specific service
+![Use-Case Diagram](https://github.com/IUS-CS/s20-project-crimson-soldiers/blob/byoungWork/doc/use-case.png)
 2. Use Cases  
-    - View information
-        Short description: This use case allows users to look at and gather information on the various services offered across campus. This includes getting additional information from a popup dialog box. THe actor of this use case is the end consumer of this webapp.
+
+
+## Service View 
+1. Repository
+
+2. Services
+
+
 
 
