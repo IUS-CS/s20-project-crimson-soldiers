@@ -17,6 +17,7 @@ In our system, the user sends requests over HTTPS to an Angular front-end framew
 Our webapp contains 2 major use cases:
     - Seeing all on-campus services
     - Finding contact information for a specific service  
+    
 ![Use-Case Diagram](https://github.com/IUS-CS/s20-project-crimson-soldiers/blob/byoungWork/doc/use-case.png)
 2. Use Cases  
 
