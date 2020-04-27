@@ -16,9 +16,12 @@ In our system, the user sends requests over HTTPS to an Angular front-end framew
 ![Use-Case Diagram](https://github.com/IUS-CS/s20-project-crimson-soldiers/blob/byoungWork/doc/use-case.png)  
 1. Actors  
 Our webapp contains 2 major use cases:
-    - Seeing all on-campus services
-    - Finding contact information for a specific service  
+    - Listing all on-campus services
+    - Finding additional information for a specific service
+    - Searching
 2. Use Cases  
+    - View information
+        Short description: This use case allows users to look at and gather information on the various services offered across campus. This includes getting additional information from a popup dialog box. THe actor of this use case is the end consumer of this webapp.
 
 
 ## Service View 
