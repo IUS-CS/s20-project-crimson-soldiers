@@ -12,7 +12,7 @@ In our system, the user sends requests over HTTPS to an Angular front-end framew
 
 ![System Flow Diagram](https://github.com/IUS-CS/s20-project-crimson-soldiers/blob/byoungWork/doc/System%20flow%20diagram.JPG)
 
-## Use-Case View
+## Use-Case View  
 1. Actors  
 Our webapp contains 2 major use cases:
     - Seeing all on-campus services
