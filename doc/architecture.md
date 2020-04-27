@@ -24,11 +24,3 @@ Our webapp contains 2 major use cases:
         Short description: This use case allows users to look at and gather information on the various services offered across campus. This includes getting additional information from a popup dialog box. THe actor of this use case is the end consumer of this webapp.
 
 
-## Service View 
-1. Repository
-
-2. Services
-
-
-
-
